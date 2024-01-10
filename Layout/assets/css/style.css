@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: rgb(37,92,144);
+    background: linear-gradient(90deg, rgba(37,92,144,1) 0%, rgba(54,164,186,1) 100%);
+}
+
+.infos {
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    transform: translate(-0%, -50%);
+    height: 80vh;
+    width: 25vw;
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+    border: 2px solid rgb(136, 136, 136);
+    -webkit-box-shadow: 10px 10px 14px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 14px -10px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 14px -10px rgba(0,0,0,0.75);
+}
+
+.main {
+    width: 70%;
+    margin-inline: auto;
+}
+
+.infos .main .profile-pic {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30%;
+    background-image: url('../img/pngwing.com.png');
+    background-size: cover;
+    margin-inline: auto;
+    margin-top: 60px;
+}
+
+.infos .main .name {
+    padding: 60px;
+}
+
+.infos .nav {
+    width: 290px;
+    margin: auto;
+}
+
+
+.infos navbar ul{
+    display: flex;
+    margin-top: 80px;
+}
+
+.infos navbar ul li {
+    padding: 2px;
+    margin-inline: 10px;
+    list-style: none;
+}
+
+.infos navbar ul li a {
+    color: rgb(45, 45, 145);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.infos navbar ul li a:visited {
+    color: rgb(45, 45, 145);
+}
+
+.tasks {
+    position: absolute;
+    top: 50%;
+    right: 4%;
+    transform: translate(-0%, -50%);
+    height: 80vh;
+    width: 65vw;
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+    border: 2px solid rgb(136, 136, 136);
+    -webkit-box-shadow: 10px 10px 14px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 14px -10px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 14px -10px rgba(0,0,0,0.75);
+}
+
+.task-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.tasks h1 {
+    font-size: 2.5rem;
+    padding: 50px;
+}
+
+.tasks div h2 {
+    font-size: 1.8em;
+    padding: 15px;
+}
+
+.tasks div ul {
+    margin-top: 50px;
+}
+
+.tasks div div ul li {
+    display: flex;
+    font-size: 1em;
+    text-align: start;
+    list-style: none;
+    padding: 6px;
+    font-weight: 500;
+    border: 0.5px solid black;
+    border-radius: 6px;
+    margin-block: 5px;
+}
+
+.tasks #button-remover {
+    margin-right: 50px;
+    border-radius: 50%;
+    padding: 1px;
+    width: 20px;
+    color: white;
+    background-color: rgb(153, 84, 84);
+    outline: none;
+    border: 1px solid black;
+    transition: 500ms ease;
+}
+
+.tasks #button-remover:hover {
+    background-color: rgb(116, 54, 54);
+    cursor: pointer;
+}
+
+.tasks .separacao {
+    margin: auto 0;
+    height: 560px;
+    width: 0.5px;
+    background-color: black;
+}
+
+.tasks div input {
+    margin: auto;
+    display: block;
+    padding: 6px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.tasks div input::placeholder {
+    text-align: center;
+}
+
+.tasks div #button-adicionar {
+    padding: 6px;
+    margin-block: 10px;
+    background-color: white;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid black;
+    transition: 200ms ease;
+}
+
+.tasks div #button-adicionar:hover {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.red {
+    border: 1px solid red;
+}
