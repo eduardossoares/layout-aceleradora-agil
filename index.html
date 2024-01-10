@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <link rel="stylesheet" href="assets/css/style.css"> 
+</head>
+<body>
+
+    <container>
+
+        <section class="infos">
+
+            <div class="main">
+
+                <div class="profile-pic"></div>
+
+                <h2 class="name">Usuário</h2>
+    
+                <span class="bio">
+                    Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Aliquid tempora reiciendis officia sit sunt, natus 
+                    repellendus culpa molestiae ea ipsa provident asperiores v
+                    oluptate saepe numquam maiores eligendi 
+                    ullam. Assumenda, repellat!
+                </span>
+
+            </div>
+            
+
+            <div class="nav">
+                <navbar>
+                    <ul>
+                        <li>
+                            <a href="#">Link 1</a>
+                        </li>
+    
+                        <li>
+                            <a href="#">Link 2</a>
+                        </li>
+    
+                        <li>
+                            <a href="#">Link 3</a>
+                        </li>
+    
+                        <li>
+                            <a href="#">Link 4</a>
+                        </li>
+                    </ul>
+                </navbar>
+            </div>
+            
+
+        </section>
+
+        
+
+        <section class="tasks">
+
+                <h1>Lista de Tarefas</h1>
+
+                <div class="task-list">
+                    <div class="day-tasks">
+                        <h2>Dia</h2>
+                        <input type="text" id="new-day-task" placeholder="Nova tarefa">
+                        <button id="button-adicionar" onclick="adicionarTarefasDia()">Adicionar</button>
+                        <ul id="day-list">
+                        </ul>
+                    </div>
+    
+                    <div class="separacao"></div>
+    
+                    <div class="night-tasks">
+                        <h2>Noite</h2>
+                        <input type="text" id="new-night-task" placeholder="Nova tarefa">
+                        <button id="button-adicionar" onclick="adicionarTarefasNoite()">Adicionar</button>
+                        <ul id="night-list">
+                        </ul>
+                    </div>
+                </div>
+
+        </section>
+
+    </container>
+    
+
+    <script src="assets/js/script.js">
+    </script>
+</body>
+</html>
