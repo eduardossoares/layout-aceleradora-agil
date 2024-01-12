@@ -3,7 +3,8 @@
 Bem-vindo ao projeto de layout interativo! Este projeto visa criar uma interface de usuário intuitiva e amigável, dividida em duas seções principais: a seção do usuário à esquerda e a seção de tarefas à direita.
 
 ## Layout Desktop:
-![finalizado](https://github.com/eduardossoares/layout-aceleradora-agil/assets/128731192/00248057-b0c0-4b5c-90e8-1a8478b95043)
+![image](https://github.com/eduardossoares/layout-aceleradora-agil/assets/128731192/5120bb69-3cb8-40c8-a587-08b1155f2934)
+
 
 ## Sessão do Usuário
 Esta seção proporciona uma visão rápida e agradável das informações essenciais do usuário.
