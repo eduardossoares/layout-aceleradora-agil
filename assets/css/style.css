@@ -97,7 +97,7 @@ body {
 .task-list {
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .tasks h1 {
@@ -107,7 +107,40 @@ body {
 
 .tasks div h2 {
     font-size: 1.8em;
-    padding: 15px;
+}
+
+
+.tasks div input {
+    margin: auto;
+    padding: 6px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.tasks div input::placeholder {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.tasks div #button-adicionar {
+    padding: 6px;
+    width: 30px;
+    margin-block: 10px;
+    background-color: white;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid black;
+    transition: 200ms ease;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.tasks div #button-adicionar:hover {
+    cursor: pointer;
+    font-weight: 600;
+    border: 1px solid green;
+    color: green;
 }
 
 .tasks div ul {
@@ -115,32 +148,34 @@ body {
 }
 
 .tasks div div ul li {
+    position: relative;
     display: flex;
     font-size: 1em;
     text-align: start;
     list-style: none;
     padding: 6px;
     font-weight: 500;
-    border: 0.5px solid black;
-    border-radius: 6px;
     margin-block: 5px;
 }
 
-.tasks #button-remover {
-    margin-right: 50px;
-    border-radius: 50%;
-    padding: 1px;
-    width: 20px;
-    color: white;
-    background-color: rgb(153, 84, 84);
-    outline: none;
-    border: 1px solid black;
-    transition: 500ms ease;
+.tasks #task {
+    border-bottom: 1px solid black;
+    padding: 6px;
 }
 
-.tasks #button-remover:hover {
-    background-color: rgb(116, 54, 54);
+.tasks #button-remover {
+    border-radius: 50%;
+    margin-left: 10px;
+    width: 30px;
+    border: none;
+    outline: none;
+    transition: 500ms ease;
     cursor: pointer;
+}
+
+.tasks #button-remover img {
+    width: 25px;
+    margin-top: 8px;
 }
 
 .tasks .separacao {
@@ -150,34 +185,3 @@ body {
     background-color: black;
 }
 
-.tasks div input {
-    margin: auto;
-    display: block;
-    padding: 6px;
-    outline: none;
-    border: 1px solid black;
-    border-radius: 6px;
-}
-
-.tasks div input::placeholder {
-    text-align: center;
-}
-
-.tasks div #button-adicionar {
-    padding: 6px;
-    margin-block: 10px;
-    background-color: white;
-    outline: none;
-    border-radius: 6px;
-    border: 1px solid black;
-    transition: 200ms ease;
-}
-
-.tasks div #button-adicionar:hover {
-    cursor: pointer;
-    font-weight: 500;
-}
-
-.red {
-    border: 1px solid red;
-}
