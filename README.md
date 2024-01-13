@@ -34,7 +34,7 @@ A seção do usuário à esquerda oferece uma experiência personalizada, exibin
    ```
 2. Abra o arquivo index.html em seu navegador para explorar o Layout.
 
-## Linguagens Utilizadas
+## Tecnologias Utilizadas
 
 - HTML
 - CSS
